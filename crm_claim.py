@@ -13,15 +13,8 @@ class crm_claim(osv.osv):
         except ValueError:
             compose_form_id = False 
 
-        # res_partner_data = res_partner_create.browse(cr,SUPERUSER_ID,ids[0],context=context)
-        res_partner_data = self.browse(cr,uid,ids)
-
         ctx = dict()
         ctx.update({
-            # 'default_model': 'res.partner',
-            # 'default_res_id': res_partner_data.id,
-            # 'default_use_template': bool(template_id),
-            # 'default_template_id': template_id,
             'default_use_template': True,
             'default_template_id': 32,
             'default_composition_mode': 'comment',
