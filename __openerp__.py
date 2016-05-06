@@ -6,5 +6,5 @@
     'category' : 'Tools',
     'depends' : ['crm_claim_sale_services'],
     'data':['crm_claim_view.xml'],
-    'installable': True
+    'installable': True,
 }
