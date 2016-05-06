@@ -5,6 +5,6 @@
     'author' : 'Mbs Standoffs, Travis Waelbroeck',
     'category' : 'Tools',
     'depends' : ['crm_claim_sale_services'],
-    'data':['crm_claim_view.xml'],
+    'data':['views/crm_claim_view.xml'],
     'installable': True,
 }
